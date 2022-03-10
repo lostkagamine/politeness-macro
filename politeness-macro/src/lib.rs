@@ -1,0 +1,1 @@
+pub use politeness_macro_impl::polite;

@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "politeness-macro",
+    "politeness-macro-impl",
+    "really-bad-idea"
+]

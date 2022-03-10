@@ -1,0 +1,13 @@
+[package]
+name = "politeness-macro"
+version = "0.1.0"
+edition = "2021"
+description = "Isn't it time to be a bit nicer to rustc?"
+license = "MIT"
+repository = "https://github.com/ry00001/politeness-macro"
+readme = "../README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+politeness-macro-impl = {path = "../politeness-macro-impl", version = "^0.1.0"}
