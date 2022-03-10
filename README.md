@@ -1,4 +1,6 @@
 # politeness-macro
+[![crates.io](https://img.shields.io/crates/v/politeness-macro?style=flat)](https://crates.io/crates/politeness-macro)  
+
 Aren't we all too rude to computers?
 Isn't it time to bring a bit more politeness into our programming?
 Shouldn't we be a bit nicer to rustc?  
@@ -19,7 +21,7 @@ use politeness_macro::polite;
 fn main() {
     polite! {
         // println!("hello, world"); // DOES NOT COMPILE
-        
+
         please println!("hello, world"); // does compile!
     }
 }
